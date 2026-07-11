@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.uv-cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local data — never commit datasets (layer layout TBD, see docs/decision-log.md)
+data/
+
+# Env / secrets
+.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
