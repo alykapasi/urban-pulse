@@ -3,7 +3,7 @@ name = "urbanpulse"
 version = "0.1.0"
 description = "A local-first platform for learning city-scale mobility data engineering."
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "boto3>=1.43.46",
     "confluent-kafka>=2.15.0",

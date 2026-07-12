@@ -12,6 +12,7 @@ def test_local_defaults_match_compose_host_endpoints() -> None:
     assert settings.object_store_endpoint_url == "http://localhost:18333"
     assert settings.object_store_bucket == "urbanpulse-raw"
 
+
 def test_prefixed_environment_variables_override_local_defaults(
     monkeypatch,
 ) -> None:
