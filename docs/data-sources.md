@@ -4,7 +4,7 @@ Candidate sources. None ingested yet — each gets a full entry (URL, format,
 update cadence, schema notes, known quirks) when adopted.
 
 | Source | What | Format | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | NYC TLC Trip Records | Yellow/green taxi + FHV/HVFHV trips | Monthly Parquet | Zone IDs only (no lat/lon); ~2 month publication lag; schema drift across years |
 | NYC Taxi Zones | 263 zone polygons | Shapefile / GeoJSON | The geospatial backbone; check CRS (published in EPSG:2263, NY State Plane ft) |
 | Citi Bike | Trip histories | Monthly CSV (zipped) | Real lat/lon + station IDs; schema changed ~2021; station churn |

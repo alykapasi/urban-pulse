@@ -14,7 +14,7 @@ Short ADR-style entries, newest last.
 
 ## ADR-0002: Environment tooling = uv
 
-- **Decision:** Manage Python env + dependencies with uv (pyproject.toml + uv.lock), Python 3.12.
+- **Decision:** Manage Python env + dependencies with uv (pyproject.toml + uv.lock), Python 3.13.
 - **Reason:** Single fast tool, lockfile reproducibility, current community default.
 - **Options considered:** pip+venv (no lockfile), Poetry (heavier, slower).
 - **Tradeoffs:** None significant.

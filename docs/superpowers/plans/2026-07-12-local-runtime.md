@@ -12,13 +12,13 @@ configuration-driven smoke command checks Kafka metadata, PostgreSQL `SELECT
 1`, and the raw object-store bucket. This deliberately establishes platform
 connectivity only, not a source adapter or data pipeline.
 
-**Tech Stack:** Python 3.12, uv, pytest, Ruff, Pydantic Settings, Apache Kafka
+**Tech Stack:** Python 3.13, uv, pytest, Ruff, Pydantic Settings, Apache Kafka
 4.0.2 (single-node KRaft), PostgreSQL 17.10, SeaweedFS 4.36 S3 API, Docker
 Compose.
 
 ## Global Constraints
 
-- Use Python 3.12+ and manage every Python dependency through `uv`.
+- Use Python 3.13+ and manage every Python dependency through `uv`.
 - Keep the runtime local-only: no Hetzner/B2 provisioning, API key, real source
   fetch, curated table, or orchestration service.
 - Use Apache Kafka in single-node KRaft mode. Kafka is a local transport and

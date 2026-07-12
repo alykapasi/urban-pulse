@@ -9,7 +9,7 @@ incrementally and recorded in [docs/decision-log.md](docs/decision-log.md).
 
 ## Setup
 
-Requires [uv](https://docs.astral.sh/uv/) and Python 3.12+.
+Requires [uv](https://docs.astral.sh/uv/) and Python 3.13+.
 
 ```bash
 uv sync          # create venv + install deps
